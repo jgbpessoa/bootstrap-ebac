@@ -1,0 +1,143 @@
+/* Variables */
+
+:root {
+  --ff-primary: "DM Serif Text", serif;
+  --ff-secondary: "Lato", sans-serif;
+  --ff-tertiary: "Playfair Display", serif;
+}
+
+/* Header */
+
+.navbar-brand img {
+  margin-left: 1.5rem;
+}
+
+/* Hero */
+
+.carousel {
+  width: 100%;
+  height: 60vh;
+  margin: 0 auto;
+}
+
+.carousel-section {
+  min-height: 300px;
+}
+
+.carousel-item img {
+  height: 60vh;
+  object-fit: cover;
+}
+
+.carousel-caption {
+  background: rgba(0, 0, 0, 0.5);
+  width: 100vw;
+  left: 0;
+  bottom: 0;
+  padding-bottom: 2rem;
+}
+
+.carousel-caption h5 {
+  font-family: var(--ff-tertiary);
+  font-size: 1.75rem;
+}
+
+.carousel-caption p {
+  font-family: var(--ff-secondary);
+  font-size: 1.25rem;
+}
+
+/* Info Section */
+
+.info-section {
+  margin: 2rem auto;
+  text-align: center;
+}
+
+.info h1 {
+  font-family: var(--ff-primary);
+  font-size: 5rem;
+}
+
+.info p {
+  font-family: var(--ff-secondary);
+  font-size: 1.25rem;
+}
+
+.education h2 {
+  font-family: var(--ff-tertiary);
+  font-size: 3rem;
+  line-height: 5rem;
+}
+
+.education ul {
+  font-family: var(--ff-secondary);
+  font-size: 1.25rem;
+  text-align: left;
+  display: inline-block;
+}
+
+/* Skills section */
+
+.skills-section {
+  padding: 2rem 0;
+}
+
+.skills-section h2 {
+  font-family: var(--ff-secondary);
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.skills-section .row {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.card {
+  margin-bottom: 2rem;
+  font-family: var(--ff-secondary);
+  transition: all 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.035);
+}
+
+/* F.A.Q. section */
+
+.faq-section {
+  margin: 2rem auto;
+}
+
+.faq-section > h2 {
+  text-align: center;
+  font-family: var(--ff-secondary);
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.accordion {
+  max-width: 50rem;
+  margin: 0 auto;
+}
+
+.accordion-button {
+  font-family: var(--ff-tertiary);
+  font-size: 1.25rem;
+}
+.accordion-body p {
+  font-family: var(--ff-secondary);
+  font-size: 1.25rem;
+}
+
+/* Footer */
+
+footer p {
+  font-family: var(--ff-primary);
+  padding: 1rem 0;
+  margin: 0;
+  text-align: center;
+  font-size: 1.25rem;
+}
